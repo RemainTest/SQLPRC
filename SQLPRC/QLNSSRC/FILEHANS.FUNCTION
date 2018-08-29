@@ -1,7 +1,7 @@
 000100000000     A          R FILEHANS                  TEXT('Function Definitions-
 000200000000     A                                       HANS               ')
 000300000000     A            F23P#I     00003A         TEXT('Partition Identifier-
-000400000000     A                                                          ')
+000400000000     A                                                   xx       ')
 000500000000     A                                      COLHDG( +
 000600000000     A                                      'Partition'            +
 000700000000     A                                      'Identifier'           +
