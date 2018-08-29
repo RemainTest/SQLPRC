@@ -1,0 +1,94 @@
+000100000000     A                                      UNIQUE
+000200000000     A          R PSLMST                    TEXT('Personeels hoofd    -
+000300000000     A                                                          ')
+000400000000     A            EMPNO        005A         TEXT('Personeels nummer   -
+000500000000     A                                                          ')
+000600000000     A                                      COLHDG( +
+000700000000     A                                      'Person.'              +
+000800000000     A                                      'Nummer'               +
+000900000000     A                                      )
+001000000000     A            SURNAME      020A         TEXT('Achternaam werknemer-
+001100000000     A                                                          ')
+001200000000     A                                      COLHDG( +
+001300000000     A                                      'Achternaam'           +
+001400000000     A                                      )
+001500000000     A            GIVENAME     020A         TEXT('Voornamen werknemer -
+001600000000     A                                                          ')
+001700000000     A                                      COLHDG( +
+001800000000     A                                      'Voornaam (en)'        +
+001900000000     A                                      )
+002000000000     A            ADDRESS1     025A         TEXT('Adres regel 1       -
+002100000000     A                                                          ')
+002200000000     A                                      COLHDG( +
+002300000000     A                                      'Adres regel 1'        +
+002400000000     A                                      )
+002500000000     A            ADDRESS2     025A         TEXT('Adres regel 2       -
+002600000000     A                                                          ')
+002700000000     A                                      COLHDG( +
+002800000000     A                                      'Adres regel 2'        +
+002900000000     A                                      )
+003000000000     A            ADDRESS3     025A         TEXT('Adres regel 3       -
+003100000000     A                                                          ')
+003200000000     A                                      COLHDG( +
+003300000000     A                                      'Adres regel 3'        +
+003400000000     A                                      )
+003500000000     A            POSTCODE     006S         TEXT('Postcode            -
+003600000000     A                                                          ')
+003700000000     A                                      COLHDG( +
+003800000000     A                                      'Post'                 +
+003900000000     A                                      'Code'                 +
+004000000000     A                                      )
+004100000000     A                                      EDTCDE(3)
+004200000000     A            PHONEHME     015A         TEXT('Prive telefoonnummer-
+004300000000     A                                                          ')
+004400000000     A                                      COLHDG( +
+004500000000     A                                      'Prive Telefoon'       +
+004600000000     A                                      'Nummer'               +
+004700000000     A                                      )
+004800000000     A            PHONEBUS     015A         TEXT('Zaken telefoonnummer-
+004900000000     A                                                          ')
+005000000000     A                                      COLHDG( +
+005100000000     A                                      'Zaken Telefoon'       +
+005200000000     A                                      'Nummer'               +
+005300000000     A                                      )
+005400000000     A            STARTDTER    006S         TEXT('Datum in dienst in J-
+005500000000     A                                      JMMDD formaat       ')
+005600000000     A                                      COLHDG( +
+005700000000     A                                      'Datum'                +
+005800000000     A                                      'In dienst'            +
+005900000000     A                                      )
+006000000000     A                                      EDTCDE(Y)
+006100000000     A            TERMDATER    006S         TEXT('Datum uit dienst in -
+006200000000     A                                      JJMMDD formaat      ')
+006300000000     A                                      COLHDG( +
+006400000000     A                                      'Datum'                +
+006500000000     A                                      'uit dienst'           +
+006600000000     A                                      )
+006700000000     A                                      EDTCDE(Y)
+006800000000     A            DEPTMENT     004A         TEXT('Afdelings code      -
+006900000000     A                                                          ')
+007000000000     A                                      COLHDG( +
+007100000000     A                                      'Afd.'                 +
+007200000000     A                                      'Code'                 +
+007300000000     A                                      )
+007400000000     A            SECTION      002A         TEXT('Sector code         -
+007500000000     A                                                          ')
+007600000000     A                                      COLHDG( +
+007700000000     A                                      '     Sector'          +
+007800000000     A                                      '      Code'           +
+007900000000     A                                      )
+008000000000     A            SALARY       011P 2       TEXT('Salaris werknemer   -
+008100000000     A                                                          ')
+008200000000     A                                      COLHDG( +
+008300000000     A                                      'Salaris'              +
+008400000000     A                                      )
+008500000000     A                                      EDTCDE(1)
+008600000000     A            @@UPID       007P         TEXT('Veld wijzig / toegan-
+008700000000     A                                      g identificatie     ')
+008800000000     A                                      COLHDG( +
+008900000000     A                                      'Wijzig'               +
+009000000000     A                                      'Ident.'               +
+009100000000     A                                      )
+009200000000     A                                      ALIAS(+
+009300000000     A                                      UPDATE_IDENT                  )
+009400000000     A          K EMPNO                                UNSIGNED
