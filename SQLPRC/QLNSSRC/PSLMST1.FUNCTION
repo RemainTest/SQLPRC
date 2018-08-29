@@ -1,0 +1,20 @@
+000000000000                R PSLMST1                   PFILE(PSLMST    )
+000000000000                  EMPNO
+000000000000                  SURNAME
+000000000000                  GIVENAME
+000000000000                  ADDRESS1
+000000000000                  ADDRESS2
+000000000000                  ADDRESS3
+000000000000                  POSTCODE
+000000000000                  PHONEHME
+000000000000                  PHONEBUS
+000000000000                  STARTDTER
+000000000000                  TERMDATER
+000000000000                  DEPTMENT
+000000000000                  SECTION
+000000000000                  SALARY
+000000000000                  @@UPID                    ALIAS(+
+000000000000                                            UPDATE_IDENT                  )
+000000000000                K DEPTMENT                          UNSIGNED
+000000000000                K SECTION                           UNSIGNED
+000000000000                K EMPNO                             UNSIGNED

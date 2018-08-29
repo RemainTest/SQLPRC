@@ -1,1 +1,1 @@
-select * from omobj
+select * from omobj where rjsrcp = '0'

@@ -1,0 +1,106 @@
+000100000000     A          R FILEHANS                  TEXT('Function Definitions-
+000200000000     A                                       HANS               ')
+000300000000     A            F23P#I     00003A         TEXT('Partition Identifier-
+000400000000     A                                                          ')
+000500000000     A                                      COLHDG( +
+000600000000     A                                      'Partition'            +
+000700000000     A                                      'Identifier'           +
+000800000000     A                                      )
+000900000000     A            F23MOD     00010A         TEXT('Process name        -
+001000000000     A                                                          ')
+001100000000     A                                      COLHDG( +
+001200000000     A                                      'Process'              +
+001300000000     A                                      'Name'                 +
+001400000000     A                                      )
+001500000000     A            F23FMT     00007A         TEXT('Function name       -
+001600000000     A                                                          ')
+001700000000     A                                      COLHDG( +
+001800000000     A                                      'Function'             +
+001900000000     A                                      'Name'                 +
+002000000000     A                                      )
+002100000000     A            F23TYP     00001A         TEXT('Function type       -
+002200000000     A                                                          ')
+002300000000     A                                      COLHDG( +
+002400000000     A                                      'Function'             +
+002500000000     A                                      'Type'                 +
+002600000000     A                                      )
+002700000000     A            F23STY     00001A         TEXT('Function status     -
+002800000000     A                                                          ')
+002900000000     A                                      COLHDG( +
+003000000000     A                                      'Function'             +
+003100000000     A                                      'Status'               +
+003200000000     A                                      )
+003300000000     A            F23DNF     00007A         TEXT('Default Next Functio-
+003400000000     A                                      n                   ')
+003500000000     A                                      COLHDG( +
+003600000000     A                                      'Default Next'         +
+003700000000     A                                      'Function'             +
+003800000000     A                                      )
+003900000000     A            F23ANF     00140A         TEXT('Allowable N.F.      -
+004000000000     A                                                          ')
+004100000000     A                                      COLHDG( +
+004200000000     A                                      'Allowable'            +
+004300000000     A                                      'Next function'        +
+004400000000     A                                      )
+004500000000     A            F23FID     00006A         TEXT('INTERNAL FUNCTION ID-
+004600000000     A                                                          ')
+004700000000     A                                      COLHDG( +
+004800000000     A                                      'INTERNAL'             +
+004900000000     A                                      'FUNCTION'             +
+005000000000     A                                      'IDENTITY'             +
+005100000000     A                                      )
+005200000000     A            F23APM     00001A         TEXT('DISPLAY MAIN MENU   -
+005300000000     A                                                          ')
+005400000000     A                                      COLHDG( +
+005500000000     A                                      'DISPLAY'              +
+005600000000     A                                      'MAIN'                 +
+005700000000     A                                      'MENU'                 +
+005800000000     A                                      )
+005900000000     A            F23SP1     00010A         TEXT('Compiled display fil-
+006000000000     A                                      e name              ')
+006100000000     A                                      COLHDG( +
+006200000000     A                                      'Compiled'             +
+006300000000     A                                      'Display'              +
+006400000000     A                                      'File Name'            +
+006500000000     A                                      )
+006600000000     A            F23SET     00003P         TEXT('Pointer to 29/30 set-
+006700000000     A                                                          ')
+006800000000     A                                      COLHDG( +
+006900000000     A                                      'Pointer'              +
+007000000000     A                                      'to DC@F29/'           +
+007100000000     A                                      'DC@F30 set'           +
+007200000000     A                                      )
+007300000000     A            F23CRL     00003A         TEXT('Compiled Release Lev-
+007400000000     A                                      el                  ')
+007500000000     A                                      COLHDG( +
+007600000000     A                                      'Compiled'             +
+007700000000     A                                      'Release'              +
+007800000000     A                                      'Level'                +
+007900000000     A                                      )
+008000000000     A            F23CPC     00002A         TEXT('Compiled PC Level   -
+008100000000     A                                                          ')
+008200000000     A                                      COLHDG( +
+008300000000     A                                      'Compiled'             +
+008400000000     A                                      'PC Level'             +
+008500000000     A                                      )
+008600000000     A            F23MSQ     00005A         TEXT('Menu Sequence       -
+008700000000     A                                                          ')
+008800000000     A                                      COLHDG( +
+008900000000     A                                      'Menu'                 +
+009000000000     A                                      'Sequence'             +
+009100000000     A                                      )
+009200000000     A            F23SP2     00003A         TEXT('*DIRECT option indic-
+009300000000     A                                      ator                ')
+009400000000     A                                      COLHDG( +
+009500000000     A                                      '*DIRECT'              +
+009600000000     A                                      'Option'               +
+009700000000     A                                      'Indicator'            +
+009800000000     A                                      )
+009900000000     A            @@UPID     00007P         TEXT('Field update / acces-
+010000000000     A                                      s identifier        ')
+010100000000     A                                      COLHDG( +
+010200000000     A                                      '  Update/'            +
+010300000000     A                                      'Identifier'           +
+010400000000     A                                      )
+010500000000     A                                      ALIAS(+
+010600000000     A                                      UPDATE_IDENT                  )
